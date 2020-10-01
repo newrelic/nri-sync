@@ -1,0 +1,19 @@
+# this files goes in...
+# linux    /etc/newrelic-infra/integrations.d/nri-sync-config.yml
+# windows  C:\Program Files\New Relic\newrelic-infra\integrations.d\nri-sync-config.yml
+---
+integrations:
+  - name: nri-sync
+    # nri-sync will look for environment variables or cli flags for configuration
+    # if you would like to define them yourself, uncomment the below section
+    # to see all options run ./nri-sync -h
+    #####################################################################################################
+    # env:
+    #   # integrations manager nerdpack uuid
+    #   NR_UUID: 4c2c66ea-c13d-4b95-9c9a-64183fe68290
+    #   # new relic one user api key
+    #   NR_API_KEY: NRAK-123...
+    #   # the new relic account that contains your config collection
+    #   NR_ACCOUNT_ID: 2676709
+    #   # name of config collection to sync
+    #   NR_COLLECTION: uat-01-collection

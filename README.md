@@ -4,7 +4,7 @@
 
 Dynamically synchronize New Relic Infrastructure integration configuration files with configs defined via the "Integrations Manager" app available from the Application Catalog.
 
-Alternatively use the newrelic-cli to automate writing configuration files directly to the Integrations Manager nerdstorage.
+Alternatively use the newrelic-cli to automate writing configuration files directly to the Integrations Manager nerd storage.
 
 ### Install
 
